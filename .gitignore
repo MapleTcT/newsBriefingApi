@@ -1,0 +1,54 @@
+# Python环境文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# 数据库
+*.db
+*.sqlite3
+
+# 日志
+*.log
+news_briefing.log
+
+# 系统文件
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# 特定目录
+bin/
+lib/
+include/
+pyvenv.cfg
+**/lib/
+**/bin/
+**/include/
+share/
+man/
+python*/
+local/
+lib64

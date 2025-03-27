@@ -1,0 +1,11 @@
+crawl4ai
+flask
+schedule
+requests
+beautifulsoup4
+sumy
+nltk
+yake
+python-dotenv
+
+
