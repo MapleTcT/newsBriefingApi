@@ -9,7 +9,7 @@ from config import SUMMARY_SENTENCE_COUNT, KEYWORD_COUNT, DOMAIN_KEYWORDS
 # 下载必要的NLTK数据（只需运行一次）
 try:
     nltk.data.find('tokenizers/punkt')
-except nltk.downloader.DownloadError:
+except LookupError:
     logging.info("下载NLTK 'punkt'分词器数据...")
     nltk.download('punkt')
 
